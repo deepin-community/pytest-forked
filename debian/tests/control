@@ -1,0 +1,2 @@
+Tests: python3-pytest-forked
+Depends: python3-pytest-forked, python3-all
