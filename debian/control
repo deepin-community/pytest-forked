@@ -1,21 +1,23 @@
 Source: pytest-forked
 Priority: optional
 Section: python
-Maintainer: Scott Talbert <swt@techie.net>
-Uploaders: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Scott Talbert <swt@techie.net>
 Build-Depends:
  debhelper-compat (= 13),
  dh-python,
+ pybuild-plugin-pyproject,
  python3-all,
  python3-setuptools,
  python3-setuptools-scm,
  python3-pytest,
  python3-py,
+ python3-wheel,
  pandoc
-Standards-Version: 4.5.0
+Standards-Version: 4.6.2
 Homepage: https://github.com/pytest-dev/pytest-forked
-Vcs-Git: https://salsa.debian.org/python-team/modules/pytest-forked.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/pytest-forked
+Vcs-Git: https://salsa.debian.org/python-team/packages/pytest-forked.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/pytest-forked
 Rules-Requires-Root: no
 
 Package: python3-pytest-forked

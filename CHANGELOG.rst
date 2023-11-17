@@ -1,3 +1,20 @@
+v1.6.0
+======
+
+* Relaxed dependency requirements (`#77 <https://github.com/pytest-dev/pytest-forked/issues/77>`__).
+
+v1.5.0
+======
+
+* Dropped support for Python 3.6.
+* Added official support for Python 3.11.
+
+v1.4.0
+======
+
+* Dropped support for Python 2.7 and 3.5.
+* Added official support for Python 3.10.
+
 v1.3.0
 ======
 
